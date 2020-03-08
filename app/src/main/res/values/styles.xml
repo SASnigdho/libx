@@ -8,13 +8,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <!-- Navigation bar bottom  -->
-        <item name="android:navigationBarColor">#FF424242</item>
-
-        <!-- Floating action button use this color -->
-        <item name="colorSecondary">@color/colorPrimaryDark</item>
-        <!-- Floating action button icon color -->
-        <item name="colorOnSecondary">#FFFFFF</item>
-
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
     </style>
 
     <!-- Use for nav drawer nav view -->
@@ -22,13 +16,22 @@
         <item name="itemIconTint">@color/itemIconTint</item>
     </style>
 
+    <!-- Use for nav drawer nav view -->
+    <style name="AppTheme.FloatingActionButton">
+        <!-- Floating action button use this color -->
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <!-- Floating action button icon color -->
+        <item name="tint">#FFFFFF</item>
+    </style>
+
+    <!-- No actionbar -->
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!-- Use for appbar & toolbar -->
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
