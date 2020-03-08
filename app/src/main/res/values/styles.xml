@@ -1,11 +1,25 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Base application theme. Theme.AppCompat.Light.DarkActionBar -->
+    <!-- Material theme. Theme.MaterialComponents.Light.DarkActionBar -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- Navigation bar bottom  -->
+        <item name="android:navigationBarColor">#FF424242</item>
+
+        <!-- Floating action button use this color -->
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <!-- Floating action button icon color -->
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+    </style>
+
+    <!-- Use for nav drawer nav view -->
+    <style name="AppTheme.NavigationView">
+        <item name="itemIconTint">@color/itemIconTint</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
