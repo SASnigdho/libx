@@ -12,4 +12,7 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+
+    <!-- Use to add fragment in back stack -->
+    <string name="back_stack">backStack</string>
 </resources>

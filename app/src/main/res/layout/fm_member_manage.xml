@@ -6,35 +6,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_margin="16dp"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.MemberManageFm">
 
     <Button
-        android:id="@+id/FmHomeMemberMangeBtn"
+        android:id="@+id/AddMemberBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Member Manage"
+        android:text="Add Member"
         android:textAllCaps="false"/>
 
     <Button
-        android:id="@+id/FmHomeBookManageBtn"
+        android:id="@+id/UpdateMemenrBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Book Manage"
+        android:text="Update Member"
         android:textAllCaps="false"/>
 
     <Button
-        android:id="@+id/FmHomeIssueBookBtn"
+        android:id="@+id/DisableMemberBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Issue Book"
-        android:textAllCaps="false"/>
-
-    <Button
-        android:id="@+id/FmHomeSubjectAndCategoryBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Subject And Catwgory"
+        android:text="Disable Member"
         android:textAllCaps="false"/>
 
 </LinearLayout>
