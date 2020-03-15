@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import blog.tech.salman.libx.R;
+import blog.tech.salman.libx.ui.book_manage.BookManageAc;
 
 public class HomeFragment extends Fragment {
 
@@ -19,6 +20,11 @@ public class HomeFragment extends Fragment {
         // Member manage button
         root.findViewById( R.id.FmHomeMemberMangeBtn ).setOnClickListener( v -> {
             startActivity( new Intent( getContext(), MemberAc.class ) );
+        } );
+
+        // Book manage button
+        root.findViewById( R.id.FmHomeBookManageBtn ).setOnClickListener( v -> {
+            startActivity( new Intent( getContext(), BookManageAc.class ) );
         } );
 
         return root;

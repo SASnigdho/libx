@@ -37,6 +37,10 @@ class MemberManageFm : Fragment() {
         inflate.DisableMemberBtn.setOnClickListener {
             Toast.makeText(context, "Disable member", Toast.LENGTH_SHORT).show()
         }
+
+        inflate.CategoryAddBtn.setOnClickListener {
+            Toast.makeText(context,"Add Category", Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun replaceFragment(fragment: Fragment) {

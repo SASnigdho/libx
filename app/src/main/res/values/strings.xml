@@ -9,10 +9,13 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_subject_category">Subject &amp; Category</string>
 
     <string name="home_second">Home Second</string>
 
     <!-- Use to add fragment in back stack -->
     <string name="back_stack">backStack</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

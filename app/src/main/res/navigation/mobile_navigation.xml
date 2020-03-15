@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="blog.tech.salman.libx.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="blog.tech.salman.libx.ui.subject_category.SubjectCategoryFm"
+        android:label="@string/menu_subject_category"
+        tools:layout="@layout/fm_subject_category" />
 </navigation>

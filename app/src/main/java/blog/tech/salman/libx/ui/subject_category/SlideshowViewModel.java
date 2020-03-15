@@ -1,4 +1,4 @@
-package blog.tech.salman.libx.ui.slideshow;
+package blog.tech.salman.libx.ui.subject_category;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
